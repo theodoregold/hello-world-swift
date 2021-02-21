@@ -15,16 +15,16 @@ class ViewController: NSViewController, NSTextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         typeChanged(self)
     }
-
+    
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
+            // Update the view, if already loaded.
         }
     }
-
+    
     @IBAction func typeChanged(_ sender: Any) {
         switch type.selectedSegment {
         case 0:
@@ -50,7 +50,7 @@ class ViewController: NSViewController, NSTextFieldDelegate {
     func rot13(_ input: String) -> String {
         return ROT13.string(input);
     }
-   
+    
     func similar(_ input: String) -> String {
         var output = input
         
