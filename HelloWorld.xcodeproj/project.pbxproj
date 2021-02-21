@@ -11,6 +11,9 @@
 		7D52681325E2ABC500FAE1B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52681225E2ABC500FAE1B9 /* ViewController.swift */; };
 		7D52681525E2ABC700FAE1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D52681425E2ABC700FAE1B9 /* Assets.xcassets */; };
 		7D52681825E2ABC700FAE1B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D52681625E2ABC700FAE1B9 /* Main.storyboard */; };
+		7D52682225E2D45B00FAE1B9 /* Zalgo.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D52682125E2D45B00FAE1B9 /* Zalgo.json */; };
+		7D52682525E2D47B00FAE1B9 /* ZalgoCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52682425E2D47B00FAE1B9 /* ZalgoCharacters.swift */; };
+		7D52682825E2D8CD00FAE1B9 /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D52682725E2D8CD00FAE1B9 /* ROT13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		7D52681725E2ABC700FAE1B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D52681925E2ABC700FAE1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D52681A25E2ABC700FAE1B9 /* HelloWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloWorld.entitlements; sourceTree = "<group>"; };
+		7D52682125E2D45B00FAE1B9 /* Zalgo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Zalgo.json; sourceTree = "<group>"; };
+		7D52682425E2D47B00FAE1B9 /* ZalgoCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalgoCharacters.swift; sourceTree = "<group>"; };
+		7D52682725E2D8CD00FAE1B9 /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +61,13 @@
 			children = (
 				7D52681025E2ABC500FAE1B9 /* AppDelegate.swift */,
 				7D52681225E2ABC500FAE1B9 /* ViewController.swift */,
+				7D52682425E2D47B00FAE1B9 /* ZalgoCharacters.swift */,
+				7D52682725E2D8CD00FAE1B9 /* ROT13.swift */,
 				7D52681425E2ABC700FAE1B9 /* Assets.xcassets */,
 				7D52681625E2ABC700FAE1B9 /* Main.storyboard */,
 				7D52681925E2ABC700FAE1B9 /* Info.plist */,
 				7D52681A25E2ABC700FAE1B9 /* HelloWorld.entitlements */,
+				7D52682125E2D45B00FAE1B9 /* Zalgo.json */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -120,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D52682225E2D45B00FAE1B9 /* Zalgo.json in Resources */,
 				7D52681525E2ABC700FAE1B9 /* Assets.xcassets in Resources */,
 				7D52681825E2ABC700FAE1B9 /* Main.storyboard in Resources */,
 			);
@@ -134,6 +144,8 @@
 			files = (
 				7D52681325E2ABC500FAE1B9 /* ViewController.swift in Sources */,
 				7D52681125E2ABC500FAE1B9 /* AppDelegate.swift in Sources */,
+				7D52682525E2D47B00FAE1B9 /* ZalgoCharacters.swift in Sources */,
+				7D52682825E2D8CD00FAE1B9 /* ROT13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
